@@ -1,0 +1,36 @@
+/* global css */
+body,
+h1,
+h2,
+h3,
+p,
+ul,
+li,
+form {
+  margin: 0;
+  padding: 0;
+}
+header,
+main,
+section,
+footer,
+button,
+ul,
+a,
+p,
+form,
+div {
+  box-sizing: border-box;
+}
+header,
+main,
+footer {
+  width: 100vw;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style-type: none;
+}
+/* header */
