@@ -87,6 +87,10 @@ ul {
   display: inline-block;
   box-sizing: border-box;
 }
+.header__drop-down::after {
+  content: " > ";
+  transform: rotate(90);
+}
 .header__ul,
 .header__list {
   display: flex;
