@@ -11,10 +11,21 @@
     <header>
       <div class="header header_top">
         <div class="wrap-row">
-          <span class="header__drop-down">English</span>
+          <div class="header__wrap">
+            <select name="lang" class="header__drop-down header__drop-down_lang">
+              <option value="0">English</option>
+              <option value="1">Deutsch</option>
+            </select>
+          </div>
           <span class="header__empty-2"></span>
           <span class="header__cc"><i class="fa fa-users" aria-hidden="true"></i> Contact Center</span>
-          <span class="header__drop-down">Country Profile</span>
+          <div class="header__wrap">
+            <select name="lang" class="header__drop-down header__drop-down_count">
+              <option value="0">Country Profile</option>
+              <option value="1">England</option>
+              <option value="2">Deutschland</option>
+            </select>
+          </div>
         </div>
       </div>
       <div class="header header_nav">
@@ -42,8 +53,9 @@
             </li>
           </ul>
           <span class="header__empty-4"></span>
-          <form action="#">
-            <input class="header__search" type="text" />
+          <form action="#" class="header__search">
+            <input type="text" class="header__search-input">
+            <i class="fa fa-search"></i>
           </form>
         </div>
       </div>
