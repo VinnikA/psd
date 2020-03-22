@@ -468,3 +468,7 @@ ul {
   font-stretch: ultra-expanded;
   cursor: pointer;
 }
+.about {
+  height: 910px;
+  background-color: white;
+}
