@@ -8,6 +8,9 @@
   src: url(/fonts/Poppins-Medium.ttf);
 }
 /* global css */
+html {
+  overflow-x : hidden;
+}
 body,
 h1,
 h2,
@@ -51,8 +54,6 @@ ul {
 .wrap-col {
   width: 1170px;
   height: 100%;
-}
-.wrap {
   position: relative;
 }
 .wrap-row,
@@ -468,7 +469,23 @@ ul {
   font-stretch: ultra-expanded;
   cursor: pointer;
 }
+/* about section */
 .about {
+  display: flex;
+  justify-content: center;
+  position: relative;
   height: 910px;
+  width: 100vw;
   background-color: white;
+  text-align: center;
+}
+.about__play {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  top: 0;
+  width: 100vw;
+  height: 700px;
+  overflow: hidden;
+  /* z-index: -10; */
 }
