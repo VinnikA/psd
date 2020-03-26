@@ -703,3 +703,9 @@ ul {
   align-items: center;
   background-color: rgb(255, 204, 0);
 }
+/* features section */
+.features {
+  height: 350px;
+  background-color: rgb(186, 0, 0);
+  color: white;
+}
