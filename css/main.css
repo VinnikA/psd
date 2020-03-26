@@ -121,7 +121,7 @@ ul {
   -moz-appearance: none;
   -webkit-appearance: none; */
   background-color: rgba(186, 0, 0, 0);
-  font-family: "poppins-regular" sans-serif;
+  font-family: "poppins-regular", sans-serif;
   font-size: 14px;
   color: white;
   background: transparent;
@@ -256,7 +256,7 @@ ul {
 .header__h2,
 .header__adv,
 .header__link {
-  font-family: "poppins" sans-serif;
+  font-family: "poppins", sans-serif;
 }
 
 .header__h2 {
@@ -436,7 +436,7 @@ ul {
   margin: 0;
   padding: 0 10px;
   background-color: rgb(157, 0, 0);
-  font-family: "poppins-regular" sans-serif;
+  font-family: "poppins-regular", sans-serif;
   font-size: 14px;
   color: white;
   cursor: pointer;
@@ -599,6 +599,7 @@ ul {
 }
 .form__field_yellow {
   background-color: rgb(255, 204, 0);
+  color: rgb(186, 0, 0);
   visibility: hidden;
 }
 .form__select {
@@ -634,6 +635,31 @@ ul {
   overflow: hidden;
   transition-duration: 0.8s;
   background-color: rgb(157, 0, 0);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.form__title {
+  margin: 15px 0 10px 20px;
+  font-family: 'poppins', sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+.form__item {
+  margin: 2px 0 0 20px;
+  font-family: 'poppins-regular', sans-serif;
+  display: inline-block;
+}
+.form__item .fa-play {
+  color: rgb(255, 204, 0);
+  font-size: 12px;
+  display: inline-block;
+  margin-right: 10px;
+}
+.form__item:last-child {
+  margin-bottom: 20px;
 }
 .form__grow:hover .form__select {
   color: rgb(186, 0, 0);
