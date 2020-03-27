@@ -745,3 +745,19 @@ ul {
 .features__but:hover {
   color: rgb(255, 204, 0);
 }
+/* clients section */
+.client {
+  height: 270px;
+  background-color: white;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+.client__img {
+  height: 130px;
+  width: 270px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(249, 249, 249);
+}
