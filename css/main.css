@@ -540,7 +540,7 @@ ul {
 }
 .about__text .fa-play {
   color: rgb(255, 204, 0);
-  font-size: 12px;
+  font-size: 10px;
   margin-right: 8px;
 }
 /* form section */
@@ -654,7 +654,7 @@ ul {
 }
 .form__item .fa-play {
   color: rgb(255, 204, 0);
-  font-size: 12px;
+  font-size: 10px;
   display: inline-block;
   margin-right: 10px;
 }
@@ -744,4 +744,58 @@ ul {
 }
 .features__but:hover {
   color: rgb(255, 204, 0);
+}
+/* clients section */
+.client {
+  height: 270px;
+  background-color: white;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+.client__img {
+  height: 130px;
+  width: 270px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(249, 249, 249);
+}
+/* footer */
+.footer__menu {
+  max-width: 1030px;
+  min-width: 680px;
+  flex-grow: 2;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-family: 'poppins', sans-serif;
+  text-transform: uppercase;
+}
+.footer__title {
+  color: rgb(186, 0, 0);
+  font-size: 20px;
+  font-weight: 900;
+  margin-bottom: 25px;
+}
+.footer__link {
+  color: rgb(119, 119, 119);
+}
+.footer__link .fa-play {
+  color: rgb(186, 0, 0);
+  font-size: 10px;
+  display: inline-block;
+  margin-right: 10px;
+}
+/* .footer__menu-item:first-child .footer__link {
+  color: rgb(255, 204, 0);
+} */
+.footer__link_yel {
+  color: rgb(255, 204, 0);
+}
+/* .footer__menu-part:last-child .footer__menu-item:first-child .footer__link {
+  color: rgb(0, 126, 223);
+} */
+.footer__link_blue {
+  color: rgb(0, 126, 223);
 }
