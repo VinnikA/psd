@@ -12,24 +12,25 @@
 
 <body>
   <header>
+    <!-- header-top
+  row wrap row_between
+    select select_small
+    empty-2
+    header-top__contact
+    select select_small -->
     <div class="header-top ">
-      <div class="wrap_row">
-        <div class="header__wrap">
-          <select name="lang" class="header__drop-down header__drop-down_lang">
-            <option value="0">English</option>
-            <option value="1">Deutsch</option>
-          </select>
-        </div>
-        <span class="header__empty-2"></span>
-        <span class="header__cc"><a href="#" class="header__a-top"><i class="fa fa-users" aria-hidden="true"></i>
-            Contact Center</a></span>
-        <div class="header__wrap">
-          <select name="lang" class="header__drop-down header__drop-down_count">
-            <option value="0">Country Profile</option>
-            <option value="1">England</option>
-            <option value="2">Deutschland</option>
-          </select>
-        </div>
+      <div class="wrap row row_between">
+        <select name="lang" class="select select_small">
+          <option value="0">English</option>
+          <option value="1">Deutsch</option>
+        </select>
+        <span class="empty-2"></span>
+        <a href="#" class="header-top__contact"><i class="fa fa-users" aria-hidden="true"></i>Contact Center</a>
+        <select name="lang" class="select select_small">
+          <option value="0">Country Profile</option>
+          <option value="1">England</option>
+          <option value="2">Deutschland</option>
+        </select>
       </div>
     </div>
     <div class="header-nav">

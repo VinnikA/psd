@@ -25,9 +25,11 @@ html,body{
 	-moz-text-size-adjust: 100%;
 	-webkit-text-size-adjust: 100%;
 }
-input,button,textarea,select,option{
+input,button,textarea,select,option,a{
 	font-family:inherit;
+	font-size: inherit;
 	color: inherit;
+	outline: none;
 }
 
 input::-ms-clear{display: none;}
