@@ -12,12 +12,6 @@
 
 <body>
   <header>
-    <!-- header-top
-  row wrap row_between
-    select select_small
-    empty-2
-    header-top__contact
-    select select_small -->
     <div class="header-top ">
       <div class="wrap row row_between">
         <select name="lang" class="select select_small">
@@ -33,34 +27,49 @@
         </select>
       </div>
     </div>
+    <!-- header-nav
+  row wrap row_between
+    logo
+    empty-4
+    header-nav__menu
+      header-nav__item
+      header-nav__item
+      header-nav__item
+      header-nav__item
+      header-nav__item
+      header-nav__item
+    empty-2
+    header-nav__search -->
     <div class="header-nav">
-      <div class="wrap_row">
-        <img class="header__logo" src="img/logo.png" alt="logo" />
-        <span class="header__empty-2"></span>
-        <ul class="header__ul">
-          <li class="header__list">
-            <a class="header__a" href="#">Express</a>
+      <div class="wrap row row_between">
+        <a href="#">
+          <img class="logo" src="img/logo.png" alt="logo" />
+        </a>
+        <span class="empty-2"></span>
+        <ul class="row header-nav__menu">
+          <li class="row header-nav__item">
+            <a class="row header-nav__link" href="#">Express</a>
           </li>
-          <li class="header__list">
-            <a class="header__a" href="#">Parcel &#38 Ecommerce</a>
+          <li class="row header-nav__item">
+            <a class="row header-nav__link" href="#">Parcel &#38 Ecommerce</a>
           </li>
-          <li class="header__list">
-            <a class="header__a" href="#">Logistic</a>
+          <li class="row header-nav__item">
+            <a class="row header-nav__link" href="#">Logistic</a>
           </li>
-          <li class="header__list">
-            <a class="header__a" href="#">Mail</a>
+          <li class="row header-nav__item">
+            <a class="row header-nav__link" href="#">Mail</a>
           </li>
-          <li class="header__list">
-            <a class="header__a" href="#">Press</a>
+          <li class="row header-nav__item">
+            <a class="row header-nav__link" href="#">Press</a>
           </li>
-          <li class="header__list">
-            <a class="header__a" href="#">About</a>
+          <li class="row header-nav__item">
+            <a class="row header-nav__link" href="#">About</a>
           </li>
         </ul>
-        <span class="header__empty-4"></span>
-        <div class="header__box">
-          <form action="#" class="header__search">
-            <input type="text" class="header__search-input">
+        <span class="empty-4"></span>
+        <div class="header-nav__box">
+          <form action="#" class="header-nav__search">
+            <input type="text" class="header-nav__search-input">
             <i class="fa fa-search"></i>
           </form>
         </div>
