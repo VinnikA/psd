@@ -8,23 +8,31 @@ header-nav
   row wrap row_between
     logo
     empty-4
-    header-nav__menu
+    row header-nav__menu
       header-nav__item
+        header-nav__link
       header-nav__item
+        header-nav__link
       header-nav__item
+        header-nav__link
       header-nav__item
+        header-nav__link
       header-nav__item
+        header-nav__link
       header-nav__item
+        header-nav__link
     empty-2
-    header-nav__search
+    header-nav__box,
+      header-nav__search,
+      header-nav__search-input,
+      fa-search
 header-bottom
-  col wrap col_center
+  wrap
     header-bottom__title
-    decor
+    header-bottom__decor
     header-bottom__text
-    row
-      header-bottom__adv
-    row
+    row header-bottom__adv
+    row header-bottom__link-block
       link-but
       link-but
 services

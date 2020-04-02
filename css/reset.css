@@ -12,7 +12,7 @@
 :focus,:active{outline: none;}
 a:focus,a:active{outline: none;}
 
-nav,footer,header,section,aside{display: block;}
+nav,footer,header,section,aside,hr{display: block;}
 a,span{display: inline-block;}
 
 html,body{
