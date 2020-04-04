@@ -65,6 +65,7 @@ body {
 }
 .wrap {
   width: 1170px;
+  height: 100%;
 }
 .col,.row {
   position: relative;
@@ -119,6 +120,9 @@ body {
 .header-top__contact {
   margin-right: 30px;
 }
+.header-top__contact:active {
+  color: rgb(255, 204, 0);
+}
 .header-top__contact .fa-users{
   margin-right: 10px;
 }
@@ -131,19 +135,25 @@ body {
   align-items: stretch;
   border-top: 4px solid rgb(255, 204, 0);
   border-bottom: 4px solid rgb(255, 204, 0);
-  transition: 0.3s;
 }
 .header-nav__item:hover {
   border-bottom: 4px solid rgb(186, 0, 0);
+}
+.header-nav__item:active {
+  border-bottom: 4px solid rgb(255, 255, 255);
 }
 .header-nav__link {
   padding: 0 15px;
   text-transform: uppercase;
   color: rgb(186, 0, 0);
-  transition: 0.3s;
 }
 .header-nav__link:hover {
   font-weight: 700;
+}
+.header-nav__link:active {
+  color: rgb(255, 255, 255);
+  text-shadow: 0 0 10px rgb(255, 255, 255);
+  
 }
 /* header_nav elements, search block */
 .header-nav__box {
@@ -238,8 +248,33 @@ body {
   position: absolute;
   top: 610px;
 }
-.header-bottom__link
-
+.services__title-box {
+  position: relative;
+  margin-top: 90px;
+  margin-bottom: 80px;
+  height: 150px;
+  width: inherit;
+}
+.services__shadow,.services__title {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-family: "poppins", sans-serif;
+}
+.services__shadow {
+  font-size: 150px;
+  text-transform: uppercase;
+  color: rgb(248, 248, 248);
+  font-weight: 900;
+  letter-spacing: 16px;
+}
+.services__title {
+  padding-left: 5px;
+  font-size: 50px;
+  font-weight: 700;
+  color: rgb(186, 0, 0);
+  letter-spacing: 5px;
+}
 /* old css */
 /* header_bottom */
 .header_bottom {
@@ -396,41 +431,6 @@ body {
   color: rgb(186, 0, 0);
 }
 /* services block */
-.services {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  height: 730px;
-  background-color: white;
-}
-.service__title {
-  margin-top: 100px;
-  position: relative;
-  height: 110px;
-  width: inherit;
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  margin-bottom: 80px;
-}
-.services__h2 {
-  font-family: "poppins", sans-serif;
-  font-size: 50px;
-  color: rgb(186, 0, 0);
-  z-index: 10;
-}
-.service__back {
-  display: block;
-  position: absolute;
-  top: -55px;
-  left: 0px;
-  font-size: 150px;
-  text-transform: uppercase;
-  font-family: "poppins", sans-serif;
-  color: rgb(248, 248, 248);
-  font-weight: 900;
-}
 
 .info-block,
 .info-block_red {

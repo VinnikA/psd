@@ -37,9 +37,9 @@ header-bottom
       link-but
 services
   col wrap
-    col 
-      services__shadow
-      services__title
+      services__title-box
+        services__shadow
+        services__title
       row row_between
         services__info
           services__img
